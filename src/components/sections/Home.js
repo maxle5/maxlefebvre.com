@@ -5,9 +5,9 @@ export default function Home() {
         <section id='home' className='pb-0'>
             <div className='container h-100 p-relative'>
                 <div>
-                    <h1 className='text-title text-center my-0 text-primary'>I'm Max.</h1>
+                    <h1 className='text-title text-center my-0 text-primary'>I'm Max</h1>
                     <p className='mt-0 mx-auto text-primary text-center text-heading'>
-                        a software developer.
+                        [software developer]
                     </p>
                 </div>
 
