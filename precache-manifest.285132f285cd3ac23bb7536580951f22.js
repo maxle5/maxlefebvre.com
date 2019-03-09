@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/maxlefebvre.com/static/js/runtime~main.fbb0bdce.js"
   },
   {
-    "revision": "58e1d5add8768173a7e6",
-    "url": "/maxlefebvre.com/static/js/main.763e3bf2.chunk.js"
+    "revision": "e5ce12cb183eb7718e98",
+    "url": "/maxlefebvre.com/static/js/main.a7b2ff1a.chunk.js"
   },
   {
     "revision": "ac164eeb7fe39897100f",
     "url": "/maxlefebvre.com/static/js/2.aa7a0768.chunk.js"
   },
   {
-    "revision": "58e1d5add8768173a7e6",
-    "url": "/maxlefebvre.com/static/css/main.d01b8d0c.chunk.css"
+    "revision": "e5ce12cb183eb7718e98",
+    "url": "/maxlefebvre.com/static/css/main.bdd4c13b.chunk.css"
   },
   {
-    "revision": "8416e31d2af6a5170e3d3259d58df341",
+    "revision": "1f4f330b41e097f21b7598c6bcf15450",
     "url": "/maxlefebvre.com/index.html"
   }
 ];
