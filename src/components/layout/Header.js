@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <div className='container d-flex justify-content-between align-items-center'>
                 <a href="#root">
-                    <img className='icon' src={process.env.PUBLIC_URL + '/images/avatar-smile.png'} alt='bitmoji avatar smiling' />
+                    <img className='icon' src={process.env.PUBLIC_URL + '/images/avatar-smile-65x65.png'} alt='bitmoji avatar smiling' />
                 </a>
                 <div>
                     <a href='#about' className='text-heading'>about</a>
