@@ -12,7 +12,7 @@ export default function Home() {
                 </div>
 
                 <div className='p-absolute w-100' style={{ bottom: 0 }}>
-                    <img className='mx-auto d-block w-100' src={process.env.PUBLIC_URL + '/images/land.svg'}></img>
+                    <img className='mx-auto d-block w-100' src={process.env.PUBLIC_URL + '/images/land.svg'} alt='digital landscape'></img>
                 </div>
             </div>
         </section>

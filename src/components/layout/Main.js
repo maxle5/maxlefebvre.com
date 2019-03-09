@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 
 import Home from '../sections/Home';
 import About from '../sections/About';
-import Work from '../sections/Work';
+import Projects from '../sections/Projects';
+import Contact from '../sections/Contact';
 
 export class Main extends Component {
     render() {
@@ -10,7 +11,8 @@ export class Main extends Component {
             <main>
                 <Home />
                 <About />
-                <Work />
+                <Projects />
+                <Contact />
             </main>
         )
     }
