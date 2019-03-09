@@ -45,10 +45,10 @@ a{
 
 main section{
     padding: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 
     p{
-        max-width: 60%;
+        max-width: 550px;
     }
 
     .icon{
@@ -64,10 +64,6 @@ section#home{
     height: 50vh;
 
     @media screen and (min-width: 1200px){
-        height: calc(100vh - 60px);                
+        height: calc(100vh - 95px);                
     }
-}
-
-section#about{
-    padding: 50px;
 }

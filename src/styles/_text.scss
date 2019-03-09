@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Nothing+You+Could+Do|Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Indie+Flower|Noto+Serif');
 
 @import './variables';
 
-$title-font-family: Nothing You Could Do, cursive;
+$title-font-family: Indie Flower, cursive;
 $heading-font-family: Open Sans, sans-serif;
 $body-font-family: Noto Serif, serif;
 
 .text-title{
     font: 400% $title-font-family;
+    line-height: 55px;
+    padding-top: 15px;
 }
 .text-heading{
     font: 100% $heading-font-family;
@@ -30,5 +32,5 @@ h1,h2,h3,h4,h5,h6{
     font: 200% $heading-font-family;
 }
 .text-small{
-    font-size: 65%;
+    font-size: 75%;
 }
