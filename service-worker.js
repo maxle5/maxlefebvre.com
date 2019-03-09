@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/maxlefebvre.com/precache-manifest.9fd77c97634c925642bc120f22e8bc31.js"
+  "/maxlefebvre.com/precache-manifest.d63fcd78c4dda63d01e8285661a6b777.js"
 );
 
 workbox.clientsClaim();
