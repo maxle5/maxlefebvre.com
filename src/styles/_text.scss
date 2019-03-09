@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Nothing+You+Could+Do');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Nothing+You+Could+Do|Noto+Serif');
 
 @import './variables';
 
 $title-font-family: Nothing You Could Do, cursive;
-$body-font-family: Open Sans, sans-serif;
+$heading-font-family: Open Sans, sans-serif;
+$body-font-family: Noto Serif, serif;
 
 .text-title{
     font: 400% $title-font-family;
+}
+.text-heading{
+    font: 100% $heading-font-family;
 }
 
 .text-center{
@@ -20,4 +24,11 @@ $body-font-family: Open Sans, sans-serif;
 }
 .text-tertiary{
     color: $tertiary-color !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font: 200% $heading-font-family;
+}
+.text-small{
+    font-size: 65%;
 }

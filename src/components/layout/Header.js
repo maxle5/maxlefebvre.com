@@ -6,9 +6,9 @@ export default function Header() {
             <div className='container d-flex justify-content-between align-items-center'>
                 <img className='icon' src='/images/icon.png' />
                 <div>
-                    <a href='#about' className='active'>about</a>
-                    <a href='#work'>work</a>
-                    <a href='#blog'>blog</a>
+                    <a href='#about' className='active text-heading'>about</a>
+                    <a href='#work' className='text-heading'>work</a>
+                    <a href='#blog' className='text-heading'>blog</a>
                 </div>
             </div>
         </header>
