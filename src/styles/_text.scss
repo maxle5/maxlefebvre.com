@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Nothing+You+Could+Do');
+
+@import './variables';
+
+$title-font-family: Nothing You Could Do, cursive;
+$body-font-family: Open Sans, sans-serif;
+
+.text-title{
+    font: 400% $title-font-family;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: $primary-color !important;
+}
+.text-secondary{
+    color: $secondary-color !important;
+}
+.text-tertiary{
+    color: $tertiary-color !important;
+}
