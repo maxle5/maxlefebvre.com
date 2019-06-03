@@ -9,8 +9,8 @@ export default function Header() {
                 </a>
                 <div>
                     <a href='#about' className='text-heading'>about</a>
+                    <a href='#experience' className='text-heading'>experience</a>
                     <a href='#projects' className='text-heading'>projects</a>
-                    <a href='#blog' className='text-heading'>blog</a>
                 </div>
             </div>
         </header>

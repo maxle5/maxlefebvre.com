@@ -62,5 +62,28 @@ main section{
 section#home{
     background-color: $bg-color2;
     max-height: 850px;
+    min-height: 500px;
     height: calc(100vh - 95px);    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-color;    
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-grow: 1;
+    color: $tertiary-color;
+
+    &:hover{
+        color: darken($color: ($tertiary-color), $amount: 30%)
+    }
+
+    i{
+        margin-bottom: 1rem;
+    }
 }
